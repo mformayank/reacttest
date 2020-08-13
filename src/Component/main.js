@@ -9,7 +9,7 @@ class Main extends Component {
 
    
     componentDidMount() {
-        Axios.get('http://localhost:5000/read').then(res => {
+        Axios.get('http://13.233.85.99:5000/read').then(res => {
             this.setState({name: res.data.name});           
         });
     }
